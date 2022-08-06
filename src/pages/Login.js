@@ -43,7 +43,7 @@ class Login extends Component {
 
   render(){
     if(this.state.loggedIn == true){
-        return <Navigate to="/" replace={true} />
+        return <Navigate to="/profile" replace={true} />
     } else {
         return <Row style = {{ marginLeft:"0", marginRight:"0"}}>
             <Card style={{width:"25%", height:"fit-content", marginLeft:"auto", marginRight:"auto", marginTop:"100px", backgroundColor:"lightcyan"}}>
